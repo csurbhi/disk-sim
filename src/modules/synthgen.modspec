@@ -31,7 +31,7 @@
 
 
 MODULE synthgen
-HEADER \#include "../disksim_synthio.h"
+HEADER \#include <disksim_synthio.h>
 RESTYPE synthio_generator **
 # this is a dummy that should never be called
 PROTO int disksim_synthgen_loadparams(struct lp_block *b);

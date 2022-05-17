@@ -31,7 +31,7 @@
 
 
 MODULE logorg
-HEADER \#include "../disksim_logorg.h"
+HEADER \#include <disksim_logorg.h>
 RESTYPE struct logorg *
 PROTO struct logorg *disksim_logorg_loadparams(struct lp_block *b);
 

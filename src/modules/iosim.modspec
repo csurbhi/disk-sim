@@ -30,7 +30,7 @@
 
 
 MODULE iosim
-HEADER \#include "../disksim_iosim.h"
+HEADER \#include <disksim_iosim.h>
 RESTYPE int
 PROTO int disksim_iosim_loadparams(struct lp_block *b);
 

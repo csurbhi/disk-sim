@@ -31,7 +31,7 @@
 
 
 MODULE global
-HEADER \#include "../disksim_global.h"
+HEADER \#include <disksim_global.h>
 HEADER \#include <libddbg/libddbg.h>
 RESTYPE int
 PROTO int disksim_global_loadparams(struct lp_block *b);

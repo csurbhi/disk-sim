@@ -30,7 +30,7 @@
 
 
 MODULE bus-stats
-HEADER \#include "disksim_bus.h"
+HEADER \#include <disksim_bus.h>
 RESTYPE int
 PROTO int disksim_bus_stats_loadparams(struct lp_block *b);
 

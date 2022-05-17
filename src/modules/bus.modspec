@@ -31,7 +31,7 @@
 
 
 MODULE bus
-HEADER \#include "../disksim_bus.h"
+HEADER \#include <disksim_bus.h>
 RESTYPE struct bus *
 PROTO struct bus *disksim_bus_loadparams(struct lp_block *b, int *num);
 

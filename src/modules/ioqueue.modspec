@@ -31,7 +31,7 @@
 
 
 MODULE ioqueue
-HEADER \#include "../disksim_ioqueue.h"
+HEADER \#include <disksim_ioqueue.h>
 RESTYPE struct ioq *
 PROTO struct ioq *disksim_ioqueue_loadparams(struct lp_block *b, int printqueuestats, int printcritstats, int printidlestats, int printintarrstats, int printsizestats);
 

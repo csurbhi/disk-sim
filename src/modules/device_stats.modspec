@@ -31,7 +31,7 @@
 
 
 MODULE device_stats
-HEADER \#include "../disksim_device.h"
+HEADER \#include <disksim_device.h>
 RESTYPE int
 PROTO int disksim_device_stats_loadparams(struct lp_block *b);
 

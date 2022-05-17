@@ -31,7 +31,7 @@
 
 
 MODULE cachedev
-HEADER \#include "disksim_cachedev.h"
+HEADER \#include <disksim_cachedev.h>
 RESTYPE struct cache_dev *
 PROTO struct cache_if *disksim_cachedev_loadparams(struct lp_block *b);
 

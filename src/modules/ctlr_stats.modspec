@@ -30,8 +30,8 @@
 
 
 MODULE ctlr-stats
-HEADER \#include "../disksim_global.h"
-HEADER \#include "../disksim_ctlr.h"
+HEADER \#include <disksim_global.h>
+HEADER \#include <disksim_ctlr.h>
 RESTYPE int
 PROTO int disksim_ctlr_stats_loadparams(struct lp_block *b);
 

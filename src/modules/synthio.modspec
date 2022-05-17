@@ -31,7 +31,7 @@
 
 
 MODULE synthio
-HEADER \#include "../disksim_synthio.h"
+HEADER \#include <disksim_synthio.h>
 RESTYPE int
 PROTO int disksim_synthio_loadparams(struct lp_block *b);
 

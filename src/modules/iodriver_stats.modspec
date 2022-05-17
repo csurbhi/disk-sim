@@ -30,7 +30,7 @@
 
 
 MODULE iodriver-stats
-HEADER \#include "../disksim_iodriver.h"
+HEADER \#include <disksim_iodriver.h>
 RESTYPE int
 PROTO int disksim_iodriver_stats_loadparams(struct lp_block *b);
 

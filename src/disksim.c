@@ -98,13 +98,13 @@
  * holders.
  */
 
-#include "disksim_global.h"
-#include "disksim_ioface.h"
-#include "disksim_pfface.h"
-#include "disksim_iotrace.h"
-#include "config.h"
+#include <disksim_global.h>
+#include <disksim_ioface.h>
+#include <disksim_pfface.h>
+#include <disksim_iotrace.h>
+#include <config.h>
 
-#include "modules/disksim_global_param.h"
+#include <modules/disksim_global_param.h>
 
 #include <stdio.h>
 #include <signal.h>
